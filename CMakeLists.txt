@@ -18,7 +18,9 @@ find_package(Qt5Widgets)
 add_executable(cyclone main.cpp
                        mainwindow.cpp
                        mainwindow.h
-                       mainwindow.ui)
+                       mainwindow.ui
+                       terminalprocess.cpp
+                       terminalprocess.h)
 
 # Link against Qt libraries.
 target_link_libraries(cyclone Qt5::Core
