@@ -2,6 +2,8 @@ cmake_minimum_required(VERSION 3.2)
 
 project(cyclone)
 
+set(CMAKE_CXX_FLAGS "-lutil")
+
 # Find includes in corresponding build directories.
 set(CMAKE_INCLUDE_CURRENT_DIR ON)
 # Instruct CMake to run moc automatically when needed.
